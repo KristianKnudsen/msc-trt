@@ -1,0 +1,22 @@
+{
+    "engine_out_dir": "Qwen25_3B/W8A8_SQ_LOGITS",
+    "checkpoint_out_dir": "Qwen25_3B/W8A8_SQ",
+    "model_type": "qwen",
+    "dtype": "bfloat16",
+    "quant_mode": "W8A8_SQ",
+    "kv_cache_dtype": null,
+    "quant_backend": "legacy",
+    "max_batch_size": 8,
+    "max_input_len": 2048,
+    "max_seq_len": 6144,
+    "max_num_tokens": 6144,
+    "max_beam_width": 1,
+    "gather_context_logits": true,
+    "calib_source": "neuralmagic/LLM_compression_calibration",
+    "calib_split": "train",
+    "calib_text_field": "text",
+    "calib_num_samples": 2048,
+    "calib_batch_size": 16,
+    "calib_max_seq_length": 6144,
+    "random_seed": 0
+}

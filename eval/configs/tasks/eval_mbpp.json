@@ -1,0 +1,13 @@
+{
+    "free_gpu_memory_fraction": 0.4,
+    "max_batch_size": 8,
+    "max_tokens": 512,
+    "temperature": 0.0,
+    "return_context_logits": false,
+    "seed": 0,
+    "num_samples": null,
+    "task": "mbpp",
+    "few_shots": 3,
+    "scores_filter": null,
+    "print_outputs": 0
+}

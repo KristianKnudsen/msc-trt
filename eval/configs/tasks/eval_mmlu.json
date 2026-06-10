@@ -1,0 +1,13 @@
+{
+    "free_gpu_memory_fraction": 0.4,
+    "max_batch_size": 1,
+    "max_tokens": 1,
+    "temperature": 0.0,
+    "return_context_logits": true,
+    "seed": 0,
+    "num_samples": null,
+    "task": "mmlu",
+    "few_shots": 5,
+    "scores_filter": "acc,none",
+    "print_outputs": 0
+}

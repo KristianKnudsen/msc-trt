@@ -1,0 +1,16 @@
+{
+    "num_requests": 10,
+    "warmup": 1,
+    "backend": "tensorrt",
+    "kv_cache_free_gpu_mem_fraction": 0.9,
+    "concurrency": 1,
+    "max_batch_size": 1,
+    "smi_logging": true,
+    "smi_interval_ms": 1000,
+    "sampler_options": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "repetition_penalty": 1.0
+    },
+    "keep_raw": false
+}

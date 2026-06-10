@@ -1,0 +1,12 @@
+{
+    "engine_out_dir": "Qwen25_7B/W4A16_AWQ",
+    "checkpoint_in_dir": "Qwen25_7B/W4A16_AWQ",
+    "model_type": "qwen",
+    "quant_backend": "modelopt",
+    "max_batch_size": 1,
+    "max_input_len": 3072,
+    "max_seq_len": 6144,
+    "max_num_tokens": 6144,
+    "max_beam_width": 1,
+    "gather_context_logits": false
+}

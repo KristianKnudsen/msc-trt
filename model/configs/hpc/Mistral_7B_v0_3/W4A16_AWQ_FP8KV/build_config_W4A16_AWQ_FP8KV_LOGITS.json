@@ -1,0 +1,22 @@
+{
+    "engine_out_dir": "Mistral_7B_v0_3/W4A16_AWQ_FP8KV_LOGITS",
+    "checkpoint_out_dir": "Mistral_7B_v0_3/W4A16_AWQ_FP8KV",
+    "model_type": "mistral",
+    "dtype": "bfloat16",
+    "quant_mode": "W4A16_AWQ",
+    "kv_cache_dtype": "fp8",
+    "quant_backend": "modelopt",
+    "max_batch_size": 8,
+    "max_input_len": 2048,
+    "max_seq_len": 6144,
+    "max_num_tokens": 6144,
+    "max_beam_width": 1,
+    "gather_context_logits": true,
+    "calib_source": "neuralmagic/LLM_compression_calibration",
+    "calib_split": "train",
+    "calib_text_field": "text",
+    "calib_num_samples": 2048,
+    "calib_batch_size": 16,
+    "calib_max_seq_length": 6144,
+    "random_seed": 0
+}

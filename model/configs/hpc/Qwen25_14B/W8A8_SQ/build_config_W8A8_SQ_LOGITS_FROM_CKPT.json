@@ -1,0 +1,15 @@
+{
+    "checkpoint_in_dir": "Qwen25_14B/W8A8_SQ",
+    "engine_out_dir": "Qwen25_14B/W8A8_SQ_LOGITS",
+    "model_type": "qwen",
+    "dtype": "bfloat16",
+    "quant_mode": "W8A8_SQ",
+    "kv_cache_dtype": null,
+    "quant_backend": "legacy",
+    "max_batch_size": 8,
+    "max_input_len": 2048,
+    "max_seq_len": 6144,
+    "max_num_tokens": 6144,
+    "max_beam_width": 1,
+    "gather_context_logits": true
+}
